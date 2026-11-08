@@ -1,0 +1,78 @@
+/* 金运亨通 · 代码块语法高亮
+ * 代码围栏由 CodeMirror 渲染，主题类名是 .cm-s-inner；配色见各主题的 --gf-syn-* 变量。
+ * 取色原则：不铺彩虹，限定在「金 / 橄榄 / 赤陶 / 米白」四色系内，与正文金主色同家族。
+ */
+
+#write pre.md-fences .CodeMirror.cm-s-inner {
+  color: var(--gf-syn-variable);
+}
+
+.cm-s-inner .cm-comment {
+  color: var(--gf-syn-comment);
+  font-style: italic;
+}
+
+.cm-s-inner .cm-keyword,
+.cm-s-inner .cm-operator + .cm-keyword {
+  color: var(--gf-syn-keyword);
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner .cm-number,
+.cm-s-inner .cm-bool {
+  color: var(--gf-syn-number);
+}
+
+.cm-s-inner .cm-string,
+.cm-s-inner .cm-string-2,
+.cm-s-inner .cm-quote {
+  color: var(--gf-syn-string);
+}
+
+.cm-s-inner .cm-def,
+.cm-s-inner .cm-variable-2,
+.cm-s-inner .cm-property {
+  color: var(--gf-syn-def);
+}
+
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-attribute {
+  color: var(--gf-syn-variable);
+}
+
+.cm-s-inner .cm-type,
+.cm-s-inner .cm-qualifier,
+.cm-s-inner .cm-builtin {
+  color: var(--gf-syn-type);
+}
+
+.cm-s-inner .cm-tag,
+.cm-s-inner .cm-bracket {
+  color: var(--gf-syn-tag);
+}
+
+.cm-s-inner .cm-operator,
+.cm-s-inner .cm-punctuation {
+  color: var(--gf-syn-operator);
+}
+
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-header {
+  color: var(--gf-syn-meta);
+}
+
+.cm-s-inner .cm-link,
+.cm-s-inner .cm-url {
+  color: var(--gf-syn-link);
+}
+
+.cm-s-inner .cm-error,
+.cm-s-inner .cm-invalidchar {
+  color: var(--gf-syn-error);
+}
+
+.cm-s-inner .cm-searching {
+  background: var(--gf-hit);
+  color: var(--gf-fg);
+}

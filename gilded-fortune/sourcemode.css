@@ -1,0 +1,79 @@
+/* 金运亨通 · 源码模式
+ * 源码模式同样由 CodeMirror 渲染，但主题类名是 .cm-s-typora-default（与代码围栏的 .cm-s-inner 不同）。
+ */
+
+#typora-source .CodeMirror,
+.cm-s-typora-default.CodeMirror {
+  background: var(--gf-bg);
+  color: var(--gf-fg);
+}
+
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-header1,
+.cm-s-typora-default .cm-header2,
+.cm-s-typora-default .cm-header3,
+.cm-s-typora-default .cm-header4,
+.cm-s-typora-default .cm-header5,
+.cm-s-typora-default .cm-header6 {
+  color: var(--gf-accent);
+  font-weight: 600;
+}
+
+.cm-s-typora-default .cm-comment {
+  color: var(--gf-syn-comment);
+}
+
+.cm-s-typora-default .cm-string,
+.cm-s-typora-default .cm-link {
+  color: var(--gf-syn-string);
+}
+
+.cm-s-typora-default .cm-keyword,
+.cm-s-typora-default .cm-strong {
+  color: var(--gf-syn-keyword);
+}
+
+.cm-s-typora-default .cm-atom,
+.cm-s-typora-default .cm-number {
+  color: var(--gf-syn-number);
+}
+
+.cm-s-typora-default .cm-formatting,
+.cm-s-typora-default .cm-formatting-task,
+.cm-s-typora-default .cm-meta,
+.cm-s-typora-default .cm-hr,
+.cm-s-typora-default .cm-yaml {
+  color: var(--gf-faint);
+}
+
+.cm-s-typora-default .cm-variable,
+.cm-s-typora-default .cm-variable-2,
+.cm-s-typora-default .cm-variable-3 {
+  color: var(--gf-syn-variable);
+}
+
+.cm-s-typora-default .cm-property,
+.cm-s-typora-default .cm-attribute,
+.cm-s-typora-default .cm-def {
+  color: var(--gf-syn-def);
+}
+
+.cm-s-typora-default .cm-tag,
+.cm-s-typora-default .cm-bracket {
+  color: var(--gf-syn-tag);
+}
+
+.cm-s-typora-default .cm-em,
+.cm-s-typora-default .cm-del,
+.cm-s-typora-default .cm-quote {
+  color: var(--gf-syn-string);
+}
+
+.cm-s-typora-default .CodeMirror-cursor {
+  border-left: 2px solid var(--gf-accent);
+}
+
+/* 源码模式下非当前行的淡出（源码模式 + 聚焦模式组合） */
+.cm-s-typora-default .CodeMirror-activeline-background {
+  background: var(--gf-line-soft);
+}

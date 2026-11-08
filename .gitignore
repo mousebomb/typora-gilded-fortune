@@ -1,0 +1,12 @@
+# 预览工具链缓存（design/preview.sh 会克隆 typora-theme-toolkit 到这里）
+.cache/
+
+# 系统文件
+.DS_Store
+
+# 日志
+*.log
+
+# 编辑器
+/.idea
+.vscode/

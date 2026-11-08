@@ -1,0 +1,25 @@
+/* 金运亨通 · Mermaid 图表
+ * Typora 通过 --mermaid-theme 变量选择 Mermaid 内置主题（各主题的文件里设置）。
+ * 这里只补容器与文字，不强行改 Mermaid 生成的节点内联样式。
+ */
+
+[lang="mermaid"] .label,
+[lang="mermaid"] .nodeLabel,
+[lang="mermaid"] text,
+[lang="flow"] .label,
+[lang="sequence"] text {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", sans-serif;
+}
+
+.md-diagram-panel-header {
+  color: var(--gf-muted);
+  border-bottom: 1px solid var(--gf-line);
+}
+
+.md-diagram-panel-error {
+  color: var(--gf-alert-caution);
+}
+
+.md-diagram-panel {
+  background: var(--gf-surface);
+}

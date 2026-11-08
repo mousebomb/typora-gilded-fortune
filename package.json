@@ -1,0 +1,15 @@
+{
+  "name": "typora-gilded-fortune",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gilded Fortune（金运亨通）明暗双主题 for Typora：近黑褐 + 压一档的鎏金，配同源推导的羊皮纸亮色版。",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/theme.test.mjs",
+    "palette": "python3 design/gen_palette_svg.py",
+    "preview": "bash design/preview.sh"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

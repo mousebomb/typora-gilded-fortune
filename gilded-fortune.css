@@ -1,0 +1,107 @@
+/* Gilded Fortune（金运亨通）· 暗色
+ * 近黑褐底 + 压一档的鎏金。色板源自作者自建的五行「补金」运势页，
+ * 与 Paseo 版同源：金色饱和度从 65% 压到 55%，久看不刺。
+ *
+ * 结构样式都在 gilded-fortune/base.css，本文件只定义颜色与 Typora 变量。
+ * 注意：body 必须是实底背景，Typora 靠它的亮度判断主题是暗是亮
+ *       （(299R+587G+114B)/256000 < 0.5），写成 transparent 会让侧栏菜单翻白。
+ */
+
+@import "gilded-fortune/base.css";
+@import "gilded-fortune/codeblock.css";
+@import "gilded-fortune/sourcemode.css";
+@import "gilded-fortune/mermaid.css";
+
+:root {
+  /* ---------- Typora 界面契约 ---------- */
+  --bg-color: #17150f;
+  --text-color: #f5efe0;
+  --side-bar-bg-color: #131109;
+  --window-border: 1px solid #322c1c;
+  --window-border-color: #322c1c;
+  --border-color: #322c1c;
+  --active-file-bg-color: #2a2416;
+  --active-file-text-color: #f7f1e2;
+  --active-file-border-color: #c8a63f;
+  --item-hover-bg-color: #241f15;
+  --item-hover-text-color: #f5efe0;
+  --control-text-color: #c9bfa5;
+  --control-text-hover-color: #f5efe0;
+  --primary-color: #d9c06b;
+  --primary-btn-border-color: #8f7429;
+  --primary-btn-text-color: #17150f;
+  --md-char-color: #6f6853;
+  --meta-content-color: #a99a76;
+  --select-text-bg-color: #4a3d18;
+  --select-text-font-color: #fdf8ea;
+  --search-select-bg-color: #6b5518;
+  --search-select-text-color: #fdf8ea;
+  --table-border-color: #322c1c;
+  --rawblock-edit-panel-bd: #221f15;
+  --panel-border-color: #413924;
+  --focus-ring-color: #c8a63f;
+  --blur-text-color: #5d5645;
+  --active-toggle-btn-color: #c8a63f;
+  --heading-char-color: #5d5645;
+  --drag-placeholder-color: #413924;
+  --side-bar-menu-active-tint: #c8a63f;
+  --hint-color: #b9a77d;
+  --color-popover-bg-color: #1e1b13;
+  --monospace: "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
+
+  /* ---------- 主题自身色阶 ---------- */
+  --gf-bg: #17150f;
+  --gf-bg-deep: #131109;
+  --gf-surface: #1e1b13;
+  --gf-control: #221f15;
+  --gf-line: #322c1c;
+  --gf-line-strong: #413924;
+  --gf-line-soft: rgba(200, 166, 63, 0.055);
+  --gf-fg: #f5efe0;
+  --gf-muted: #c9bfa5;
+  --gf-faint: #8a8068;
+  --gf-accent: #c8a63f;
+  --gf-accent-bright: #d9c06b;
+  --gf-accent-dim: #8f7429;
+  --gf-accent-soft: rgba(200, 166, 63, 0.22);
+  --gf-link: #d9c06b;
+  --gf-active-bg: #2a2416;
+  --gf-hover-bg: #241f15;
+  --gf-code-bg: #1c1912;
+  --gf-icode-bg: #262116;
+  --gf-icode-fg: #e6cd83;
+  --gf-thead-bg: #221f15;
+  --gf-zebra: rgba(200, 166, 63, 0.035);
+  --gf-quote-bg: rgba(200, 166, 63, 0.05);
+  --gf-sel-bg: #4a3d18;
+  --gf-sel-fg: #fdf8ea;
+  --gf-mark-bg: #b99a35;
+  --gf-mark-fg: #17150f;
+  --gf-hit: #6b5518;
+  --gf-shadow: rgba(0, 0, 0, 0.45);
+
+  /* GitHub 风格提示块 */
+  --gf-alert-note: #d9c06b;
+  --gf-alert-tip: #9fb47a;
+  --gf-alert-important: #c8a63f;
+  --gf-alert-warning: #cf8b5a;
+  --gf-alert-caution: #c97a6a;
+
+  /* ---------- 语法高亮 ---------- */
+  --gf-syn-keyword: #d9a441;
+  --gf-syn-string: #a9b878;
+  --gf-syn-number: #cf8b5a;
+  --gf-syn-def: #e0c877;
+  --gf-syn-variable: #f0e4c8;
+  --gf-syn-type: #c8b98a;
+  --gf-syn-tag: #cf8b5a;
+  --gf-syn-operator: #b3a88c;
+  --gf-syn-meta: #b9a77d;
+  --gf-syn-link: #d9c06b;
+  --gf-syn-comment: #8a8068;
+  --gf-syn-error: #e08c7c;
+
+  /* ---------- Mermaid ---------- */
+  --mermaid-theme: dark;
+}
