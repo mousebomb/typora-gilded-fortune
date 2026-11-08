@@ -90,9 +90,12 @@ bash design/preview.sh dark
 ## 主题画廊（以后要投稿再看）
 
 - 仓库：`typora/theme.typora.io`，分支 `gh-pages`（文档里写的 `typora-theme-gallery` 是旧名）
-- 新增 `_posts/YYYY-MM-DD-<slug>.md`，YAML 字段：`layout: post`、`title`、`author`、`preview`、`homepage`、`download`、`description`、`tags`
-- 缩略图放 `media/thumbnails/<slug>.png`，250×200 或 500×400
-- 可选 `media/theme/<slug>/*.png` 放详情页截图
+- 新增 `_posts/theme/YYYY-MM-DD-<slug>.md`，YAML 字段（以近期条目为准）：
+  `layout: theme`、`category: theme`、`title`、`homepage`、`download`、`builtin: false`、
+  `author`、`author_url`、`thumbnail`、`preview`、`description`、`tags`，
+  以及 `typora-root-url: ../../`、`typora-copy-images-to: ../../media/theme/<slug>`
+- 缩略图放 `media/thumbnails/<slug>.png`，250×200 或 500×400；`thumbnail` 与 `preview` 常指向同一张
+- 详情页截图放 `media/theme/<slug>/`，在正文里用相对路径引用
 - 只在 macOS 测过就要在正文里声明未逐项验证 Windows/Linux
 
 ## 开发日志

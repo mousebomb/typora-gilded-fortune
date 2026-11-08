@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/icon.png" width="112" alt="Gilded Fortune"></p>
+
 # Typora Gilded Fortune（金运亨通）
 
 [English](README.md) | 中文
