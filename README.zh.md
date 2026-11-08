@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/icon.png" width="112" alt="Gilded Fortune"></p>
+<p align="center"><img src="./assets/icon-rounded.png" width="112" alt="Gilded Fortune"></p>
 
 # Typora Gilded Fortune（金运亨通）
 

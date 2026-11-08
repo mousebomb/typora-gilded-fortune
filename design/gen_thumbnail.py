@@ -30,7 +30,7 @@ parts = [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.or
 # 上半：亮色品牌带
 parts.append(f'<rect width="{W}" height="{SPLIT}" fill="{LIGHT["bg"]}"/>')
 # 图标（沿用 Paseo 版「金」字图标）
-parts.append(f'<image x="56" y="62" width="104" height="104" xlink:href="../assets/icon.png"/>')
+parts.append(f'<image x="56" y="62" width="104" height="104" xlink:href="../assets/icon-rounded.png"/>')
 parts.append(f'<text x="192" y="118" font-family="{FONT}" font-size="44" font-weight="700" '
              f'fill="{LIGHT["fg"]}">金运亨通</text>')
 parts.append(f'<text x="194" y="152" font-family="{FONT}" font-size="17" '
