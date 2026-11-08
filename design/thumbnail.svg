@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="800" viewBox="0 0 1000 800" role="img" aria-label="Gilded Fortune 金运亨通 Typora 主题">
+<rect width="1000" height="330" fill="#f2ebda"/>
+<image x="56" y="62" width="104" height="104" xlink:href="../assets/icon.png"/>
+<text x="192" y="118" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="44" font-weight="700" fill="#1b1813">金运亨通</text>
+<text x="194" y="152" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="17" fill="#5f5745">Gilded Fortune · Typora 明暗双主题</text>
+<text x="56" y="236" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="19" fill="#1b1813">近黑褐底压一档鎏金，配同源推导的羊皮纸亮色版。</text>
+<text x="56" y="272" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="17" fill="#5f5745">正文 / 次文 / 链接 / 代码，全套对比度过 WCAG AA。</text>
+<rect x="56" y="292" width="72" height="3" rx="1.5" fill="#7a5f1a"/>
+<rect y="330" width="1000" height="470" fill="#17150f"/>
+<text x="56" y="388" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="30" font-weight="600" fill="#f5efe0">阅读与写作的底色</text>
+<rect x="40" y="364" width="4" height="30" rx="2" fill="#c8a63f"/>
+<text x="56" y="434" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="18" fill="#f5efe0">金色只留给强调与层级，不铺满界面；</text>
+<text x="56" y="464" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="18" fill="#f5efe0">代码高亮限定在金 / 橄榄 / 赤陶 / 米白四色系。</text>
+<rect x="56" y="484" width="196" height="30" rx="5" fill="#1c1912"/>
+<text x="70" y="505" font-family="'SF Mono',Menlo,monospace" font-size="15" fill="#c8a63f">gilded-fortune.css</text>
+<rect x="56" y="536" width="888" height="86" rx="6" fill="#1e1b13"/>
+<rect x="56" y="536" width="3" height="86" fill="#c8a63f"/>
+<text x="78" y="568" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="16" fill="#c9bfa5">Typora 只读主题 CSS，所以两版共用同一份结构层，</text>
+<text x="78" y="594" font-family="'PingFang SC','Hiragino Sans GB','Noto Sans SC',-apple-system,sans-serif" font-size="16" fill="#c9bfa5">改版式只改一处，换色只换变量表。</text>
+<text x="56" y="774" font-family="'SF Mono',Menlo,monospace" font-size="13" fill="#8a8068">github.com/mousebomb/typora-gilded-fortune</text>
+<rect x="56" y="648" width="110" height="44" rx="8" fill="#f5efe0" stroke="#f5efe0" stroke-opacity="0.14"/>
+<rect x="176" y="648" width="110" height="44" rx="8" fill="#c8a63f" stroke="#f5efe0" stroke-opacity="0.14"/>
+<rect x="296" y="648" width="110" height="44" rx="8" fill="#d9c06b" stroke="#f5efe0" stroke-opacity="0.14"/>
+<rect x="416" y="648" width="110" height="44" rx="8" fill="#a9b878" stroke="#f5efe0" stroke-opacity="0.14"/>
+<rect x="536" y="648" width="110" height="44" rx="8" fill="#cf8b5a" stroke="#f5efe0" stroke-opacity="0.14"/>
+<rect x="656" y="648" width="110" height="44" rx="8" fill="#322c1c" stroke="#f5efe0" stroke-opacity="0.14"/>
+</svg>
